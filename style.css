@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{ 
+    background-color: antiquewhite;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    font-family: 'Bebas-Neue' ,sans-serif;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color :white;
+    padding: 0px  5px 0px 5px;
+}
+
+nav ul li{
+    padding: 20px;
+}
+.brand img{
+   width : 50px;
+   height : 40px;
+}
+.brand {
+    display:flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.container{
+    min-height: 68vh;
+    background-color: gray;
+    color:black;
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    border-radius: 30px;
+    padding: 20px;
+    width: 80%;
+    margin: 23px auto;
+    background-image: url("./old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-concrete.jpg");
+
+}
+#headline{
+    color:aquamarine;
+}
+
+.bottom{
+    position: sticky;
+    height: 110px;
+    background-color: darkgrey;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+#progressbar{
+    width: 80vw;
+}
+
+.songitem{
+  height: 60px;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  color:black;
+  margin : 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 40px;
+
+}
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+.songitem img{
+    width: 45px;
+    margin: 0 23px;
+
+
+}
+.timestamp{
+    margin: 0 23px;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: "Bebas Neue", sans-serif;
+}
+.songInfo img{ 
+    opacity: 0;
+    transition: 0.4s ease-in;
+    
+}
